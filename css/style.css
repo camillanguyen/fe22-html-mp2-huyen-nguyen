@@ -1,0 +1,83 @@
+* {
+    background-color: gray;
+
+}
+
+
+nav{
+    display: flex;
+    margin: 2rem;
+    font-size: x-large;
+    justify-content: flex-end;
+}
+.meny{
+    box-sizing: border-box;
+    border: .2rem solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.flex-contatiner{
+    display: flex;
+    box-sizing: border-box;
+    border: .2rem solid;
+    flex-wrap: wrap;
+}
+
+a{
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+a:hover{
+    background-color: rgb(160, 41, 41);
+
+}
+
+footer{
+    /* box-sizing: border-box; */
+    position: sticky;
+}
+
+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: .5rem;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding: 2rem;
+}
+.rubrik{
+    box-sizing: border-box;
+    padding-right: 4rem;
+}
+
+h4{
+color: white;
+font-size: large;
+text-align: center;
+padding-left: .5rem;
+}
+form{
+    color: white;
+}
+
+article{
+    margin: 200px;
+}
+form{
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+}
+.bokabord{
+    display: flex;
+    justify-content: center;
+}
