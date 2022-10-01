@@ -1,83 +1,111 @@
 * {
-    background-color: gray;
+    background-color: #3B7339;
 
 }
 
-
-nav{
+nav {
     display: flex;
-    margin: 2rem;
-    font-size: x-large;
-    justify-content: flex-end;
-}
-.meny{
-    box-sizing: border-box;
-    border: .2rem solid;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-}
-.flex-contatiner{
-    display: flex;
-    box-sizing: border-box;
-    border: .2rem solid;
-    flex-wrap: wrap;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-a{
+a {
     padding: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #260101;
+    text-decoration: none;
+
+}
+
+a:hover {
+    transition: .4s;
     color: white;
 
 }
 
-a:hover{
-    background-color: rgb(160, 41, 41);
-
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
 }
 
-footer{
-    /* box-sizing: border-box; */
-    position: sticky;
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #260101;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-p{
-    color: white;
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.a1 {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+span {
+    color: #8C1C25;
+}
+
+.a2 {
+    box-sizing: border-box;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;
+}
+
+.a3 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+p {
+    color: #260101;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: .5rem;
 }
 
-h3{
-    text-align: center;
-    color: white;
-    font-size: x-large;
-    padding: 2rem;
-}
-.rubrik{
-    box-sizing: border-box;
-    padding-right: 4rem;
+/* meny */
+
+.border {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+
 }
 
-h4{
-color: white;
-font-size: large;
-text-align: center;
-padding-left: .5rem;
-}
-form{
-    color: white;
+.card {
+    border: 3px solid #260101;
+    margin: 1rem;
 }
 
-article{
-    margin: 200px;
-}
-form{
+/* Bokabord */
+form {
+    color: #260101;
     margin-bottom: 400px;
     display: flex;
     justify-content: space-evenly;
     flex-flow: column nowrap;
 }
-.bokabord{
+
+.bokabord {
     display: flex;
     justify-content: center;
 }
